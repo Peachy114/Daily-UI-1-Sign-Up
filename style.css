@@ -15,8 +15,11 @@ img {
     height: 100%;
     object-fit: cover;
     display: block;
-    box-shadow: 0 0 20px rgba(201, 23, 23, 0.4);
   }
+
+.BOX-SHADOW {
+    box-shadow: 0 0 20px rgba(201, 23, 23, 0.4);
+}
 
 
 

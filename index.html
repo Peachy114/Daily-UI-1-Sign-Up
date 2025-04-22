@@ -62,11 +62,44 @@
             </div>
             <!-- Image in another column -->
             <div class="col-lg-6 col-md-6">
-                <img class="img-fluid w-100 h-100" 
+                <!-- <img class="img-fluid w-100 h-100" 
                      style="object-fit: cover;" 
-                     src="./Images/Halloween-Cover.jpg" alt="">
+                     src="./Images/Halloween-Cover.jpg" alt=""> -->
+
+                     <div id="HalloweenCarousel" class="carousel slide w-100 h-100 BOX-SHADOW">
+                        <!-- Indicators -->
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#HalloweenCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#HalloweenCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#HalloweenCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+
+                        <!-- Carousel -->
+                        <div class="carousel-inner img-fluid w-100 h-100 ">
+                          <div class="carousel-item active img-fluid w-100 h-100 ">
+                            <img src="./Images/Moon.jpg" class="d-block w-100" alt="Halloween Picture">
+                          </div>
+                          <div class="carousel-item img-fluid w-100 h-100">
+                            <img src="./Images/Duck-Cover.jpg" class="d-block w-100" alt="Halloween Picture">
+                          </div>
+                          <div class="carousel-item img-fluid w-100 h-100">
+                            <img src="./Images/Outside-Pumpkin.jpg" class="d-block w-100" alt="Halloween Picture">
+                          </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#HalloweenCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#HalloweenCarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
