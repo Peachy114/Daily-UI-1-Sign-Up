@@ -14,9 +14,9 @@
 </head>
 <body>
     <div class="container-fluid g-0 m-0 parent"> <!-- Center all the body -->
-        <div class="row g-0 form-container">
-            <div class="col-lg-6 col-md-6 p-5">
-                <div class="d-flex flex-column justify-content-center align-items-center full-height">
+        <div class="row g-0 form-container" style="min-height: 150vh;">
+            <div class="col-lg-6 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex flex-column justify-content-center align-items-center">
                     <div class="container text-center">
                         <h1 style="font-family: 'Creepster', system-ui; color: #ff6f00;">🎃 Haunted House Fundraiser 🎃</h1>
                         <i class="fa-solid fa-ghost animated-icon" style="color: #4a2323;"></i> 
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="container d-flex flex-row gap-3 mt-5 justify-content-center">
-                    <button type="submit" class="btn btn-warning col-lg-7 col-sm-8">Join the Scare Team 👻</button>
+                    <button type="submit" class="btn btn-primary col-lg-7 col-sm-8">Join the Scare Team 👻</button>
                 </div>
                 <div class="container d-flex flex-row gap-3 mt-4 justify-content-center align-content-center">
                     <input type="checkbox" class="form-label" id="checkbox"/><label for="checkbox" class="form-label">By clicking this you agree to the <strong>Terms and Conditions</strong></strong></label>
@@ -62,7 +62,9 @@
             </div>
             <!-- Image in another column -->
             <div class="col-lg-6 col-md-6">
-                <img class="img-fluid w-100" style="height: 130vh; object-fit: cover;" src="./Images/Halloween-Cover.jpg" alt="">
+                <img class="img-fluid w-100 h-100" 
+                     style="object-fit: cover;" 
+                     src="./Images/Halloween-Cover.jpg" alt="">
             </div>
         </div>
     </div>

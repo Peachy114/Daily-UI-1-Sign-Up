@@ -15,7 +15,7 @@ img {
     height: 100%;
     object-fit: cover;
     display: block;
-    box-shadow: 0 0 20px rgba(255, 0, 100, 0.4);
+    box-shadow: 0 0 20px rgba(201, 23, 23, 0.4);
   }
 
 
@@ -45,4 +45,8 @@ option {
     font-size: 3rem;
     color: #ff6f00; 
     animation: bounce 1s infinite;
+}
+
+label, input, img, select {
+    user-select: none;
 }
